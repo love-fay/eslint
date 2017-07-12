@@ -9,7 +9,7 @@
 
 ### 二、配置
 1. 首先在项目中与package.json平级的目录下创建<font color=green>.eslintrc</font>文件，该文件目前内容如下：<font color=red>（以后会做修改，暂且如此，根据项目的需求可做局部修改）</font>
-	<pre>{
+	<pre><code>{
   "extends": ["eslint:recommended", "plugin:import/errors", "plugin:import/warnings", "plugin:react/recommended"],
   // 环境定义了预定义的全局变量。
   "env": {
@@ -536,7 +536,7 @@
     // 强制在 yield* 表达式中 * 周围使用空格
     "yield-star-spacing":2
   }
-}</pre>
+}</code></pre>
 2. 这里只简单说下webstorm的配置，如下两个截图：
 	![图1](https://raw.githubusercontent.com/love-fay/images/master/eslint/webstorm/1.png)
 	![图2](https://raw.githubusercontent.com/love-fay/images/master/eslint/webstorm/2.png)
